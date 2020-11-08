@@ -71,3 +71,14 @@ fig.update_geos(fitbounds="locations", visible=False)
 fig.update_coloraxes(colorbar_title="Deaths (Log Scale)",colorscale="Reds")
 
 fig.show()
+
+### Top 10 countries (Deaths)
+f = plt.figure(figsize=(10,5))
+f.add_subplot(111)
+
+plt.axes(axisbelow=True)
+plt.barh(df_countries_cases.sort_values('Deaths')["Deaths"].index[-10:],df_countries_cases.sort_values('Deaths')["Deaths"].values[-10:],color="crimson")
+plt.tick_params(size=5,labelsize = 13)
+plt.xlabel("Deaths Cases",fontsize=18)
+plt.title("Top 10 Countries (Deaths Cases)",fontsize=20)
+plt.grid(alpha=0.3,which='both')
