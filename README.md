@@ -19,7 +19,7 @@ I received the "World COVID-19 Cases" from the following github links to study i
 ## Table of Contents
 
 * [World COVID-19 Cases](#section-one)
-* [Global Deaths Heat Map](#section-two)
+* [Global Deaths Heat Map](#global-deaths-heatmap.py)
 * [Active, Recovered, Deaths in Hotspot Countries](#section-three)
 * [US Heatmap(Confirmed Cases)](#section-four)
 * [Average Age Distribution of Cases in Countries](#section-four-1)
