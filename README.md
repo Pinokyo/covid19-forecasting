@@ -5,6 +5,17 @@ The COVID-19 virus spreads primarily through droplets of saliva or discharge fro
 
 This project is about daily case estimation using multiple data sources. Basically, Time Series and Random Forest Regressor were used in this project.
 
+## Multiple Data Source:
+- COVID19 Global Forecasting (Week 5)
+- COVID-19 in Turkey
+- COVID-19 useful features by country
+- COVID19 Daily Updates
+- Novel Corona Virus 2019 Dataset
+- Number of Covid-19 cases in the cities of Turkey
+- Python Folium Country Boundaries
+- Turkey Geoplot
+I received the "World COVID-19 Cases" from the following github links to study its worldwide spread and effects. It contains all cases until 23/9/2020. https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
+
 ## Table of Contents
 
 * [World COVID-19 Cases](#section-one)
