@@ -4,6 +4,8 @@ Coronavirus is a large family of viruses. This is a disease that was detected in
 The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings become available.
 
 This project is about daily case estimation using multiple data sources. Basically, Time Series and Random Forest Regressor were used in this project.
+You can see the project in the most detailed way on my Kaggle link.
+https://www.kaggle.com/thepinokyo/esin-covid19-forecasting-capstone
 
 ## Multiple Data Source:
 - COVID19 Global Forecasting (Week 5)
@@ -18,32 +20,32 @@ I received the "World COVID-19 Cases" from the following github links to study i
 
 ## Table of Contents
 
-* [World COVID-19 Cases](#section-one)
-* [Global Deaths Heat Map](#global-deaths-heatmap.py)
-* [Active, Recovered, Deaths in Hotspot Countries](#section-three)
-* [US Heatmap(Confirmed Cases)](#section-four)
-* [Average Age Distribution of Cases in Countries](#section-four-1)
-* [Turkey](#section-five)
-    * [Top 5 Cities with the Highest Number of Cases](#section-five-one)
-    * [Turkey Heatmap (Number of Case)](#section-five-two)
-    * [10 Cities with the Lowest Number of Cases](#section-five-three)
-* [Turkey COVID-19 Forecasting](#section-six)
-     * [Confirmed Case in Time Intervals](#section-six-one)
-     * [Fatalities Case in Time Intervals](#section-six-two)
-     * [Time Series Model](#section-six-four)
-         * [Importing Libraries](#section-six-four-1)
-         * [Prepearing Data](#section-six-four-2)
-         * [Spliting Data for Training and Validation](#section-six-four-3)
-         * [Determine Rolling Stats](#section-six-four-4)
-         * [Check for Stationary](#section-six-four-5)
-         * [Log scale tranformation](#section-six-four-6)
-         * [Exponential Decay Transformation](#section-six-four-7)
-         * [ADCF Test](#section-six-four-8)
-         * [Time Shift Transformation](#section-six-four-9)
-         * [Decomposition](#section-six-four-10)
-         * [Building Model](#section-six-four-11)
-         * [Prediction & Reverse Transformations](#section-six-four-12)
-         * [Validation](#section-six-four-13)
-         * [Test Forecasting](#section-six-four-14)
-         * [ARIMA PDQ Param Tuning](#section-six-four-15) 
-* [REFERENCES](#section-five)
+* World COVID-19 Cases
+* Global Deaths Heat Map
+* Active, Recovered, Deaths in Hotspot Countries
+* US Heatmap(Confirmed Cases)
+* Average Age Distribution of Cases in Countries
+* Turkey
+    * Top 5 Cities with the Highest Number of Cases
+    * Turkey Heatmap (Number of Case)
+    * 10 Cities with the Lowest Number of Cases
+* Turkey COVID-19 Forecasting
+     * Confirmed Case in Time Intervals
+     * Fatalities Case in Time Intervals
+     * Time Series Model
+         * Importing Libraries
+         * Prepearing Data
+         * Spliting Data for Training and Validation
+         * Determine Rolling Stats
+         * Check for Stationary
+         * Log scale tranformation
+         * Exponential Decay Transformation
+         * ADCF Test
+         * Time Shift Transformation
+         * Decomposition
+         * Building Model
+         * Prediction & Reverse Transformations
+         * Validation
+         * Test Forecasting
+         * ARIMA PDQ Param Tuning
+* REFERENCES
